@@ -1,6 +1,6 @@
 const mongodb = require('mongodb').MongoClient;
 const connectionUrl =
-  'mongodb://bimal:bimal5389@ds143262.mlab.com:43262/moviedb';
+  '*****';
 
 const clearLinkCollection = () => {
   mongodb.connect(
